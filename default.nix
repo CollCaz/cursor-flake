@@ -7,8 +7,8 @@ let
   inherit (pkgs.stdenvNoCC) hostPlatform stdenvNoCC;
 
   source = pkgs.fetchurl {
-    url = "https://downloads.cursor.com/production/9f54c226145b02c8dd0771069db954e0ab5fa1b8/linux/x64/Cursor-1.0.1-x86_64.AppImage";
-    hash = "sha256-5N1zP7KTNPAqQU/Iz57CHp0CPfbujzvDkSNhJJU7VII=";
+    url = "https://downloads.cursor.com/production/031e7e0ff1e2eda9c1a0f5df67d44053b059c5df/linux/x64/Cursor-1.2.1-x86_64.AppImage";
+    hash = "sha256-2rOs5+85crKO/N9dCQLFfUXTfP9JVVR1s/g0bK2E78s=";
   };
 
   appimageContents = appimageTools.extractType2 {
